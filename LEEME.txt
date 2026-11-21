@@ -1,0 +1,11 @@
+Sube TODO el contenido de esta carpeta (incluida la carpeta .github) a un repositorio de GitHub.
+
+ANDROID: pestaña Actions > "Compilar APK" > Run workflow. Al terminar, descarga RedScan-APK.
+
+WINDOWS: pestaña Actions > "Compilar Windows" > Run workflow. Al terminar, descarga RedScan-Windows
+(es un .zip). Descomprímelo COMPLETO en una carpeta y abre redscan.exe (no lo muevas solo, necesita
+los archivos .dll y la carpeta data que vienen al lado).
+Si Windows muestra "Windows protegió su PC": Más información > Ejecutar de todas formas.
+
+En Windows, además, el escáner lee la tabla ARP: muestra la dirección MAC de cada equipo y detecta
+también equipos con firewall que no responden por TCP (aparecen como "no responde a puertos").
